@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "types": ["vitest/globals"],
+    "lib": [
+      "dom",
+      "es2015.promise",
+      "es5",
+      "es6"
+    ],
+    "target": "ES6",
+    "module": "ES2022",
+    "removeComments": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "isolatedModules": false,
+    "experimentalDecorators": true,
+    "declaration": false,
+    "noLib": false,
+    "preserveConstEnums": true,
+    "suppressImplicitAnyIndexErrors": false,
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noEmitOnError": true,
+    "importHelpers": true,
+    "skipLibCheck": false,
+    "resolveJsonModule": true
+  },
+  "types": [
+    "vite/client"
+  ],
+  "include": [
+    "./src/**/*",
+    "./node_modules/@arcgis/core/**/*.d.ts"
+  ]
+}
